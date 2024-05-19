@@ -1,0 +1,15 @@
+Licencia RiveraAICloseLicense(2006) para el Modelo de NLP StockAI
+
+Derechos de autor (c) 2024 Fredy Rivera. Todos los derechos reservados.
+
+El uso de estos modelos se permite únicamente con el propósito de pruebas y evaluación en entornos no productivos. Se prohíbe expresamente su uso en entornos de producción sin el consentimiento previo por escrito del titular de los derechos de autor.
+
+Para obtener autorización para utilizar este modelo en un entorno de producción, comuníquese con Fredy Rivera en la siguiente dirección de correo electrónico: fredyriveraacevedo13@gmail.com.
+
+El titular de los derechos de autor se reserva todos los derechos sobre la tecnología y los algoritmos utilizados en este modelo. Ninguna parte de este modelo puede ser modificada, redistribuida, sublicenciada o utilizada de otra manera sin el consentimiento previo por escrito del titular de los derechos de autor.
+
+ESTE SOFTWARE SE PROPORCIONA "TAL CUAL" Y EL TITULAR DE LOS DERECHOS DE AUTOR RENUNCIA A TODAS LAS GARANTÍAS, EXPRESAS O IMPLÍCITAS, INCLUYENDO PERO NO LIMITADO A LAS GARANTÍAS DE COMERCIABILIDAD, IDONEIDAD PARA UN PROPÓSITO PARTICULAR Y NO INFRACCIÓN. EN NINGÚN CASO EL TITULAR DE LOS DERECHOS DE AUTOR SERÁ RESPONSABLE DE CUALQUIER RECLAMO, DAÑO U OTRA RESPONSABILIDAD, YA SEA EN UNA ACCIÓN CONTRACTUAL, AGRAVIO O DE OTRO MODO, DERIVADA DE, FUERA O EN CONEXIÓN CON EL SOFTWARE O EL USO U OTRO TIPO DE ACCIONES EN EL SOFTWARE.
+
+
+---
+
