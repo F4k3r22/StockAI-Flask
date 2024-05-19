@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StockAI - Predicción de la bolsa</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>StockAI</h1>
+        <p>Preview de modelo de predicción de la bolsa</p>
+        <form action="/predict" method="post">
+            <input type="text" name="company" placeholder="Ticket de la compañía" required>
+            <input type="number" name="days" placeholder="Días" required>
+            <button type="submit">Predecir</button>
+        </form>
+        <div class="predictions">
+            <h2>Predicciones</h2>
+            <ul>
+                {% if predictions %}
+                    {% for i, price in enumerate(predictions) %}
+                        <li>Día {{ i+1 }}: {{ price }}</li>
+                    {% endfor %}
+                {% else %}
+                    <li>No hay predicciones aún</li>
+                {% endif %}
+            </ul>
+        </div>
+    </div>
+    <footer>
+        <p>Hecho por F4k3r22</p>
+    </footer>
+</body>
+</html>
