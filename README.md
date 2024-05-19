@@ -1,12 +1,24 @@
 # 🤖StockAI💰
 Este es un proyecto de ejemplo que incluye un modelo de predicción financiera utilizando datos de mercado. 💲
 
-## 📌🤖StockAI Sell and Buy💰
-Modelo que hace predicciones en "tiempo real" y contrasta las predicciones para dar recomendaciones de compra o venta.
+## 📌🤖StockAI-Flask💰
+Implementación web para el modelo StockAI
+
+---
+
+### **✨ Repositorio Original del Modelo StockAI ✨**
+
+<p align="center">
+  <a href="https://github.com/F4k3r22/StockAI">
+    <img alt="Documentation" src="/github-mark.svg">
+</p>
+
+---
+
 
 ## 🧠Descripción
 
-Este proyecto utiliza un modelo de redes neuronales para predecir tendencias en datos financieros. El modelo está construido utilizando la biblioteca PyTorch🧠 y se entrena con datos históricos proporcionados por Yahoo Finance.
+Este una simple implementación de una interfaz web al modelo StockAI
 
 ## 📌Librerías Requeridas
 
@@ -17,10 +29,11 @@ Para ejecutar este proyecto, necesitarás tener instaladas las siguientes biblio
 - [pandas](https://pandas.pydata.org/): Biblioteca de Python para análisis de datos.
 - [torch](https://pytorch.org/): Biblioteca de PyTorch para aprendizaje profundo.
 - [scikit-learn](https://scikit-learn.org/stable/): Utilizada para la normalización de datos con el `MinMaxScaler`.
+- [flask](https://flask.palletsprojects.com/en/3.0.x/): Biblioteca para hacer la interfaz web.
 
 Puedes instalar estas bibliotecas utilizando pip:
 
-pip install yfinance numpy pandas torch scikit-learn
+pip install yfinance numpy pandas torch scikit-learn flask
 
 
 ## 📌Uso💰
@@ -34,14 +47,11 @@ Para utilizar este proyecto, sigue estos pasos:
 Si tienes tarjeta gráfica NVIDIA te recomiendo instalar las dependencias necesarias de Pytorch para cargar el modelo con CUDA, y obtener
 una mejora en el rendimiento y velocidad👨‍💻.
 
-## 👾🤖 Prueba en Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1zFFQ6-ey4DQVm578I2NZQ1bYY0jCenW1?usp=sharing)
+## 👾🤖 Capturas de la Demo en local
 
-📸Capturas de uso en Colab
-
-|   Colab 1📸   |   Colab 2📸   |   Colab 3📸   |
-| :------------------------: | :--------------------------: | :-------------------------: |
-| ![](1.PNG) | ![](2.PNG) | ![](3.PNG) |
+|   Captura 1📸   |   Captura 2📸   |
+| :------------------------: | :--------------------------: |
+| ![](St.PNG) | ![](st2.PNG) |
 
 ## 🙇‍♂️Contribución
 
@@ -49,6 +59,6 @@ Si deseas contribuir a este proyecto, ¡eres bienvenido! Puedes abrir un problem
 
 ## 📌Licencia💰
 
-Este proyecto está licenciado bajo los términos de RiveraAICloseLicense(2006) - ver el archivo [LICENSE.txt](LICENSE.txt) para más detalles. 📃📑
+Este proyecto está licenciado bajo los términos de RiveraAICloseLicense(2006) - ver el archivo [LICENSE](https://github.com/F4k3r22/StockAI?tab=License-1-ov-file) para más detalles. 📃📑
 
 
